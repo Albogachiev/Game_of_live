@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.grid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(25, 20px);
+  grid-template-rows: repeat(25, 20px);
+  gap: 0px;
+  box-shadow: 0px 0px 202px 15px #6da201;
+}
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #cecbcb;
+  cursor: pointer;
+}
+.cellIsActiv {
+  background-color: white;
+}
+.App {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 25px);
+  grid-template-rows: repeat(auto-fill, 25px);
+  width: 100vw;
+  height: 100vh;
+  gap: 0px;
+  overflow: hidden;
+}
+
+.theme {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #103f04;
+}
+
+.startClick {
+  position: absolute;
+  bottom: -40px;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px 17px;
+  border-radius: 5px;
+  border: 2px solid #2c900b;
+  background-color: white;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.startClick:hover {
+  background-color: #239603;
+}
