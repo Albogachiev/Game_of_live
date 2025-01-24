@@ -13,3 +13,4 @@
 - cd.. - перейдите в директорию проекта
 - npm install - установите зависимости
 - npm start - запустите проект
+![ссылка на мой канал](https://raw.githubusercontent.com/Albogachiev/Game_of_live/refs/heads/master/Снимок%20экрана.png)
